@@ -1,7 +1,7 @@
 void main() {
   print(calculVolumePave (5,6,7));
    print(calculSurfaceTotalePave(2.4,3,4.3));
-    
+   calculSurfaceBasePave(10,5.1); 
 }
 
 
@@ -18,3 +18,7 @@ double calculVolumePave (double longueur, double largeur, double hauteur) {
     print(surfaceBase);
   return (surfaceBase);
   }
+
+double calculPerimetreBasePave(double longueur, double largeur){
+  return (longueur + largeur)*2;
+}
