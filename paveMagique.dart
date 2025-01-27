@@ -11,3 +11,9 @@ double calculVolumePave (double longueur, double largeur, double hauteur) {
   double calculSurfaceTotalePave (double longueur, double largeur, double hauteur){
   
   return 2*(longueur*largeur + longueur*hauteur + largeur*hauteur);
+
+  double calculSurfaceBasePave(double longueur, double largeur) {
+  double surfaceBase = longueur*largeur;
+    print(surfaceBase);
+  return (surfaceBase);
+  }
